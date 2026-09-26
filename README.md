@@ -1,2 +1,2 @@
 # AstroSahar.github.io
-Astrophotography website for class. ASU CIS 300. 
+This repository contains files for CIS300 Project Assignments.
