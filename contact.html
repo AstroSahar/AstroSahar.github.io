@@ -1,12 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Capture the Cosmos with astrophotography questions, feedback, and suggestions.">
+    <meta name="description"
+        content="Contact Capture the Cosmos with astrophotography questions, feedback, and suggestions.">
     <title>Contact &amp; Questions | Capture the Cosmos</title>
     <link rel="stylesheet" href="cosmos.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQGF9HFHCB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MQGF9HFHCB');
+    </script>
 </head>
 
 <body>
@@ -46,14 +56,12 @@
 
                     <p>
                         <label for="name">Name:</label><br>
-                        <input type="text" id="name"
-                               name="name" required>
+                        <input type="text" id="name" name="name" required>
                     </p>
 
                     <p>
                         <label for="email">Email:</label><br>
-                        <input type="email" id="email"
-                               name="email" required>
+                        <input type="email" id="email" name="email" required>
                     </p>
 
                     <p>
@@ -69,16 +77,14 @@
 
                     <p>
                         <label for="topic">Question Topic:</label><br>
-                        <input type="text" id="topic"
-                               name="topic">
+                        <input type="text" id="topic" name="topic">
                     </p>
 
                     <p>
                         <label for="message">
                             Your Question or Comment:
                         </label><br>
-                        <textarea id="message" name="message"
-                                  rows="5" cols="40"></textarea>
+                        <textarea id="message" name="message" rows="5" cols="40"></textarea>
                     </p>
 
                     <p>
@@ -114,4 +120,5 @@
         <p>Clear Skies. Brighter Horizons.</p>
     </footer>
 </body>
+
 </html>
