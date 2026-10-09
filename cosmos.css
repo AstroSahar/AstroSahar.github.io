@@ -75,3 +75,53 @@ footer {
     justify-content: center;
     margin: 0 auto;
 }
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}.video-section {
+    text-align: center;
+}
+/* Gallery image */
+.features img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+/* Contact form */
+form input,
+form select,
+form textarea {
+    padding: 8px;
+    max-width: 100%;
+    border: 1px solid #cccccc;
+}
+
+form input[type="submit"] {
+    background-color: #3e9387;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Astrophotography Gallery */
+
+.features img {
+    display: block;
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.photo-caption {
+    text-align: center;
+    font-style: italic;
+    color: #5a586a;
+    margin-top: 10px;
+}
