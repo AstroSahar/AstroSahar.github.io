@@ -125,3 +125,28 @@ form input[type="submit"] {
     color: #5a586a;
     margin-top: 10px;
 }
+
+/* Equipment Comparison Table */
+
+.equipment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.equipment-table th {
+    background-color: #192c71;
+    color: white;
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+.equipment-table td {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+.equipment-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
